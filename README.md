@@ -2,7 +2,7 @@
 
 This repository is the official implementation of [Capturing brain dynamics: latent spatiotemporal patterns predict stimuli and individual differences](https://arxiv.org/abs/2030.12345). 
 
-<img src="./figures/fig_lstm.png" alt="graphic" width="500"/>
+<img src="./figures/fig_lstm.PNG" alt="graphic" width="500"/>
 
 (A) The classifier consisted of Long Short-Term Memory (LSTM) units with a fully-connected (FC) dense layer for label prediction at each time step.
 
@@ -76,12 +76,12 @@ We trained our models with a subset of the participants. The selection of high a
 
 Comparison of various models for clip prediction:
 
-<img src="./figures/fig_clip_compare.png" alt="Clip prediction accuracy" width="500"/>
+<img src="./figures/fig_clip_compare.PNG" alt="Clip prediction accuracy" width="500"/>
 
 Results are compared in `clip_compare.ipynb`.
 
 Comparison of LSTMs and CPM for behavior/personality prediction:
 
-<img src="./figures/fig_bhv_compare.png" alt="Clip prediction accuracy" width="500"/>
+<img src="./figures/fig_bhv_compare.PNG" alt="Clip prediction accuracy" width="500"/>
 
 Results are compared in `bhv_compare.ipynb`.
