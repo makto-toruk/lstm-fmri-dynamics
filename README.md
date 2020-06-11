@@ -42,29 +42,21 @@ python clip_tcn.py --input-data data/roi_ts --roi 300 --net 7 \
     --k_hidden 150 --k_wind 10 --train_size 100
 ```
 
-Results are compared in `clip_compare.ipynb`.
+
 
 ---
 
 To train the behavior/personality prediction model in the paper:
-```train
+```
 python bhv_lstm.py --input-data <path_to_data> --alpha 10 --beta 20
 ```
 
 > 📋Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
 
 
-## Pre-trained Models
-
-You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
-> 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
-
 ## Results
 
-Our model achieves the following performance on :
+Comparison of various models for clip prediction:
 
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
@@ -74,6 +66,7 @@ Our model achieves the following performance on :
 
 > 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
+Results are compared in `clip_compare.ipynb`.
 
 ## Contributing
 
