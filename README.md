@@ -1,6 +1,6 @@
 # Capturing brain dynamics: latent spatiotemporal patterns predict stimuli and individual differences 
 
-This repository is the official implementation of [Capturing brain dynamics: latent spatiotemporal patterns predict stimuli and individual differences](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [Capturing brain dynamics: latent spatiotemporal patterns predict stimuli and individual differences](https://www.biorxiv.org/content/10.1101/2020.06.11.146969v1). 
 
 <img src="./figures/fig_lstm.PNG" alt="graphic" width="500"/>
 
