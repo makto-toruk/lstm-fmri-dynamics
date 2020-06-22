@@ -7,9 +7,8 @@ from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA
 import torch
 from torch.nn.utils.rnn import pad_sequence
-from utils import _get_parcel
+from utils import _get_parcel, _get_behavioral
 from cc_utils import _get_clip_labels
-from cb_utils import _get_behavioral
 
 K_RUNS = 4
 K_SEED = 330
