@@ -127,9 +127,9 @@ if __name__ == '__main__':
         description='preprocess movie data')
     
     # preprocessed hcp data
-    parser.add_argument('-d', '--input-data', type=str,
+    parser.add_argument('-i', '--input-data', type=str,
         default='data/hcp_movies', help='path/to/movie/data')
-    parser.add_argument('-d', '--output-data', type=str,
+    parser.add_argument('-o', '--output-data', type=str,
         default='data/roi_ts', help='path/to/roi/data')
 
     # parcellation
